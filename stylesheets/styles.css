@@ -478,35 +478,36 @@ table.standart tr th, .standart_table tr th {
 
 /* line 183, ../sass/_standart.scss */
 .tab-pane {
-  display: none;
+  height: 0;
+  overflow: hidden;
 }
-/* line 186, ../sass/_standart.scss */
+/* line 187, ../sass/_standart.scss */
 .tab-pane.active {
-  display: block;
+  height: auto;
 }
 
-/* line 191, ../sass/_standart.scss */
+/* line 192, ../sass/_standart.scss */
 .text_block {
   margin-bottom: 0;
 }
 
-/* line 195, ../sass/_standart.scss */
+/* line 196, ../sass/_standart.scss */
 .bold_style {
   font-weight: bold;
 }
 
-/* line 199, ../sass/_standart.scss */
+/* line 200, ../sass/_standart.scss */
 .tac {
   text-align: center;
 }
 
-/* line 203, ../sass/_standart.scss */
+/* line 204, ../sass/_standart.scss */
 .logo {
   position: relative;
   z-index: 10;
   width: 86px;
 }
-/* line 209, ../sass/_standart.scss */
+/* line 210, ../sass/_standart.scss */
 .logo a, .logo a:link, .logo a:hover, .logo a:visited, .logo a:active, .logo a:focus {
   height: 108px;
   width: 86px;
@@ -1256,36 +1257,36 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   text-decoration: none;
 }
 
-/* line 18, ../sass/_main.scss */
+/* line 7, ../sass/_main.scss */
 .column, .chat, .graph, .sell, .orders, .history {
   padding: 15px;
   float: left;
   width: 33.33333333%;
 }
 @media (max-width: 1429px) {
-  /* line 18, ../sass/_main.scss */
+  /* line 7, ../sass/_main.scss */
   .column, .chat, .graph, .sell, .orders, .history {
     width: 50%;
   }
 }
 @media (max-width: 959px) {
-  /* line 18, ../sass/_main.scss */
+  /* line 7, ../sass/_main.scss */
   .column, .chat, .graph, .sell, .orders, .history {
     width: 100%;
   }
 }
-/* line 31, ../sass/_main.scss */
+/* line 20, ../sass/_main.scss */
 .column--long, .graph, .history {
   width: 66.66666667%;
 }
 @media (max-width: 1429px) {
-  /* line 31, ../sass/_main.scss */
+  /* line 20, ../sass/_main.scss */
   .column--long, .graph, .history {
     width: 100%;
   }
 }
 
-/* line 40, ../sass/_main.scss */
+/* line 29, ../sass/_main.scss */
 .title__big {
   font-size: 40px;
   line-height: 40px;
@@ -1295,19 +1296,19 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   margin: 40px 0;
 }
 @media (max-width: 959px) {
-  /* line 40, ../sass/_main.scss */
+  /* line 29, ../sass/_main.scss */
   .title__big {
     font-size: 32px;
   }
 }
 @media (max-width: 639px) {
-  /* line 40, ../sass/_main.scss */
+  /* line 29, ../sass/_main.scss */
   .title__big {
     font-size: 28px;
   }
 }
 
-/* line 57, ../sass/_main.scss */
+/* line 46, ../sass/_main.scss */
 .title_dop, .chat__title, .sell__title, .orders__title, .history__title {
   font-size: 18px;
   line-height: 20px;
@@ -1316,112 +1317,112 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   padding: 13px 25px;
 }
 @media (max-width: 959px) {
-  /* line 57, ../sass/_main.scss */
+  /* line 46, ../sass/_main.scss */
   .title_dop, .chat__title, .sell__title, .orders__title, .history__title {
     padding: 20px 25px;
   }
 }
 @media (max-width: 639px) {
-  /* line 57, ../sass/_main.scss */
+  /* line 46, ../sass/_main.scss */
   .title_dop, .chat__title, .sell__title, .orders__title, .history__title {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 74, ../sass/_main.scss */
+/* line 63, ../sass/_main.scss */
 .chat {
   float: right;
 }
 @media (max-width: 1429px) {
-  /* line 74, ../sass/_main.scss */
+  /* line 63, ../sass/_main.scss */
   .chat {
     width: 100%;
   }
 }
-/* line 83, ../sass/_main.scss */
+/* line 72, ../sass/_main.scss */
 .chat__wrap {
   background: #ffffff;
 }
-/* line 87, ../sass/_main.scss */
+/* line 76, ../sass/_main.scss */
 .chat__title {
   color: #1d89cf;
   padding: 13px 35px;
 }
 @media (max-width: 1429px) {
-  /* line 87, ../sass/_main.scss */
+  /* line 76, ../sass/_main.scss */
   .chat__title {
     padding: 13px 25px;
   }
 }
 @media (max-width: 959px) {
-  /* line 87, ../sass/_main.scss */
+  /* line 76, ../sass/_main.scss */
   .chat__title {
     padding: 13px 25px;
   }
 }
 @media (max-width: 639px) {
-  /* line 87, ../sass/_main.scss */
+  /* line 76, ../sass/_main.scss */
   .chat__title {
     padding: 13px 15px;
   }
 }
-/* line 103, ../sass/_main.scss */
+/* line 92, ../sass/_main.scss */
 .chat__content {
   padding: 20px 0;
 }
-/* line 107, ../sass/_main.scss */
+/* line 96, ../sass/_main.scss */
 .chat__item {
   margin-bottom: 20px;
   padding: 0 35px;
 }
 @media (max-width: 1429px) {
-  /* line 107, ../sass/_main.scss */
+  /* line 96, ../sass/_main.scss */
   .chat__item {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 @media (max-width: 639px) {
-  /* line 107, ../sass/_main.scss */
+  /* line 96, ../sass/_main.scss */
   .chat__item {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-/* line 120, ../sass/_main.scss */
+/* line 109, ../sass/_main.scss */
 .chat__item:last-of-type {
   margin-bottom: 0;
 }
-/* line 125, ../sass/_main.scss */
+/* line 114, ../sass/_main.scss */
 .chat__name {
   font-size: 14px;
   line-height: 18px;
   color: #555555;
 }
-/* line 131, ../sass/_main.scss */
+/* line 120, ../sass/_main.scss */
 .chat__text {
   color: #9d9d9d;
   font-size: 14px;
   line-height: 18px;
 }
-/* line 138, ../sass/_main.scss */
+/* line 127, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs {
   display: table;
   width: 100%;
 }
-/* line 142, ../sass/_main.scss */
+/* line 131, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs li {
   display: table-cell;
   border: solid 1px #dfdfdf;
   border-left: 0;
   width: 33.3%;
 }
-/* line 148, ../sass/_main.scss */
+/* line 137, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs li:last-child {
   border-right: 0;
 }
-/* line 152, ../sass/_main.scss */
+/* line 141, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs li a, .chat__tab .nav.nav-tabs li a:link, .chat__tab .nav.nav-tabs li a:hover, .chat__tab .nav.nav-tabs li a:visited, .chat__tab .nav.nav-tabs li a:active, .chat__tab .nav.nav-tabs li a:focus {
   display: block;
   text-align: center;
@@ -1431,37 +1432,37 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   padding: 5px;
   text-decoration: none;
 }
-/* line 162, ../sass/_main.scss */
+/* line 151, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs li a:hover {
   color: #ffffff;
   background-color: #1d89cf;
 }
-/* line 167, ../sass/_main.scss */
+/* line 156, ../sass/_main.scss */
 .chat__tab .nav.nav-tabs li.active a, .chat__tab .nav.nav-tabs li.active a:link, .chat__tab .nav.nav-tabs li.active a:hover, .chat__tab .nav.nav-tabs li.active a:visited, .chat__tab .nav.nav-tabs li.active a:active, .chat__tab .nav.nav-tabs li.active a:focus {
   color: #ffffff;
   background-color: #1d89cf;
 }
-/* line 178, ../sass/_main.scss */
+/* line 167, ../sass/_main.scss */
 .chat__btn {
   margin: 0;
   padding: 0 35px;
   padding-bottom: 40px;
 }
 @media (max-width: 1429px) {
-  /* line 178, ../sass/_main.scss */
+  /* line 167, ../sass/_main.scss */
   .chat__btn {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 @media (max-width: 639px) {
-  /* line 178, ../sass/_main.scss */
+  /* line 167, ../sass/_main.scss */
   .chat__btn {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-/* line 192, ../sass/_main.scss */
+/* line 181, ../sass/_main.scss */
 .chat__btn a, .chat__btn a:link, .chat__btn a:hover, .chat__btn a:visited, .chat__btn a:active, .chat__btn a:focus {
   display: block;
   width: 100%;
@@ -1475,37 +1476,50 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   border-radius: 3px;
 }
 @media (max-width: 1429px) {
-  /* line 209, ../sass/_main.scss */
+  /* line 198, ../sass/_main.scss */
   .chat--long {
     display: none;
   }
 }
-/* line 214, ../sass/_main.scss */
+/* line 203, ../sass/_main.scss */
 .chat--long .chat__content {
   height: 680px;
 }
 
-/* line 228, ../sass/_main.scss */
+/* line 217, ../sass/_main.scss */
 .graph__wrap {
   background: #ffffff;
   height: 265px;
   position: relative;
 }
-/* line 234, ../sass/_main.scss */
+@media (max-width: 959px) {
+  /* line 217, ../sass/_main.scss */
+  .graph__wrap {
+    height: auto;
+    padding: 20px 0;
+  }
+}
+/* line 228, ../sass/_main.scss */
 .graph__item {
   width: 100%;
   height: 190px;
 }
-/* line 240, ../sass/_main.scss */
+/* line 234, ../sass/_main.scss */
 .graph__tab ul {
   padding: 15px 25px;
 }
-/* line 244, ../sass/_main.scss */
+@media (max-width: 959px) {
+  /* line 234, ../sass/_main.scss */
+  .graph__tab ul {
+    display: none;
+  }
+}
+/* line 243, ../sass/_main.scss */
 .graph__tab ul li {
   min-width: 120px;
   float: left;
 }
-/* line 248, ../sass/_main.scss */
+/* line 247, ../sass/_main.scss */
 .graph__tab ul li a, .graph__tab ul li a:link, .graph__tab ul li a:hover, .graph__tab ul li a:visited, .graph__tab ul li a:active, .graph__tab ul li a:focus {
   color: #555555;
   padding: 6px 12px;
@@ -1516,28 +1530,28 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 257, ../sass/_main.scss */
+/* line 256, ../sass/_main.scss */
 .graph__tab ul li a:hover {
   color: #1d89cf;
 }
-/* line 262, ../sass/_main.scss */
+/* line 261, ../sass/_main.scss */
 .graph__tab ul li.active a, .graph__tab ul li.active a:link, .graph__tab ul li.active a:hover, .graph__tab ul li.active a:visited, .graph__tab ul li.active a:active, .graph__tab ul li.active a:focus {
   border-color: #1d89cf;
   color: #1d89cf;
 }
-/* line 268, ../sass/_main.scss */
+/* line 267, ../sass/_main.scss */
 .graph__tab ul li:last-child {
   max-width: none;
   float: right;
   text-align: right;
 }
-/* line 272, ../sass/_main.scss */
+/* line 271, ../sass/_main.scss */
 .graph__tab ul li:last-child a, .graph__tab ul li:last-child a:link, .graph__tab ul li:last-child a:hover, .graph__tab ul li:last-child a:visited, .graph__tab ul li:last-child a:active, .graph__tab ul li:last-child a:focus {
   color: #1d89cf;
   text-decoration: underline;
   border-color: transparent;
 }
-/* line 280, ../sass/_main.scss */
+/* line 279, ../sass/_main.scss */
 .graph__tab ul:after {
   content: " ";
   display: block;
@@ -1545,18 +1559,18 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   clear: both;
 }
 
-/* line 290, ../sass/_main.scss */
+/* line 292, ../sass/_main.scss */
 .tooltip {
   font-size: 12px;
   border: solid 1px #4db1db;
   padding: 10px 5px;
   background: #f7f7f7s;
 }
-/* line 297, ../sass/_main.scss */
+/* line 299, ../sass/_main.scss */
 .tooltip__type {
   font-size: 14px;
 }
-/* line 300, ../sass/_main.scss */
+/* line 302, ../sass/_main.scss */
 .tooltip__type span {
   height: 7px;
   width: 7px;
@@ -1566,11 +1580,11 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 309, ../sass/_main.scss */
+/* line 311, ../sass/_main.scss */
 .tooltip__vol {
   font-size: 14px;
 }
-/* line 312, ../sass/_main.scss */
+/* line 314, ../sass/_main.scss */
 .tooltip__vol:before {
   content: ' ';
   height: 7px;
@@ -1582,25 +1596,25 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   background: #555555;
   margin-right: 5px;
 }
-/* line 323, ../sass/_main.scss */
+/* line 325, ../sass/_main.scss */
 .tooltip__text {
   font-size: 12px;
 }
 
-/* line 331, ../sass/_main.scss */
+/* line 333, ../sass/_main.scss */
 .sell__wrap {
   background: #ffffff;
 }
-/* line 335, ../sass/_main.scss */
+/* line 337, ../sass/_main.scss */
 .sell__title {
   color: #d25e6e;
   border-bottom: solid 1px #dfdfdf;
 }
-/* line 341, ../sass/_main.scss */
+/* line 343, ../sass/_main.scss */
 .sell__top {
   position: relative;
 }
-/* line 345, ../sass/_main.scss */
+/* line 347, ../sass/_main.scss */
 .sell__check {
   position: absolute;
   height: 46px;
@@ -1613,12 +1627,12 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   cursor: pointer;
 }
 @media (max-width: 959px) {
-  /* line 345, ../sass/_main.scss */
+  /* line 347, ../sass/_main.scss */
   .sell__check {
     display: none;
   }
 }
-/* line 360, ../sass/_main.scss */
+/* line 362, ../sass/_main.scss */
 .sell__check:before {
   background: #555555;
   opacity: 0.6;
@@ -1636,7 +1650,7 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   -webkit-transition-delay: 0.1s;
   transition: all 0.2s ease-out 0.1s;
 }
-/* line 374, ../sass/_main.scss */
+/* line 376, ../sass/_main.scss */
 .sell__check:after {
   background: #555555;
   height: 10px;
@@ -1653,136 +1667,136 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   -webkit-transition-delay: 0.1s;
   transition: all 0.2s ease-out 0.1s;
 }
-/* line 388, ../sass/_main.scss */
+/* line 390, ../sass/_main.scss */
 .sell__check:hover {
   text-decoration: underline;
 }
-/* line 392, ../sass/_main.scss */
+/* line 394, ../sass/_main.scss */
 .sell__check.active:before, .sell__check.active:after {
   background: #d25e6e;
 }
-/* line 396, ../sass/_main.scss */
+/* line 398, ../sass/_main.scss */
 .sell__check.active:after {
   right: 0;
 }
-/* line 402, ../sass/_main.scss */
+/* line 404, ../sass/_main.scss */
 .sell__line {
   margin: 0;
   margin-bottom: 15px;
   padding: 0px 25px;
 }
 @media (max-width: 639px) {
-  /* line 402, ../sass/_main.scss */
+  /* line 404, ../sass/_main.scss */
   .sell__line {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-/* line 412, ../sass/_main.scss */
+/* line 414, ../sass/_main.scss */
 .sell__line:first-of-type {
   padding-top: 25px;
 }
-/* line 416, ../sass/_main.scss */
+/* line 418, ../sass/_main.scss */
 .sell__line:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-/* line 424, ../sass/_main.scss */
+/* line 426, ../sass/_main.scss */
 .sell__label {
   float: left;
   width: 40%;
 }
-/* line 430, ../sass/_main.scss */
+/* line 432, ../sass/_main.scss */
 .sell__input {
   float: right;
   width: 60%;
 }
-/* line 438, ../sass/_main.scss */
+/* line 440, ../sass/_main.scss */
 .sell__input:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-/* line 446, ../sass/_main.scss */
+/* line 448, ../sass/_main.scss */
 .sell__input--add input {
   width: 50%;
   float: left;
   border-right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* line 455, ../sass/_main.scss */
+/* line 457, ../sass/_main.scss */
 .sell__dop_text {
   text-align: right;
   font-size: 13px;
   line-height: 20px;
   color: #555555;
 }
-/* line 463, ../sass/_main.scss */
+/* line 465, ../sass/_main.scss */
 .sell .accordion__head:before {
   border-top-color: #d25e6e;
 }
 @media (max-width: 959px) {
-  /* line 468, ../sass/_main.scss */
+  /* line 470, ../sass/_main.scss */
   .sell--buy {
     padding-top: 0;
   }
 }
-/* line 472, ../sass/_main.scss */
+/* line 474, ../sass/_main.scss */
 .sell--buy .sell__title {
   color: #4db1db;
 }
-/* line 477, ../sass/_main.scss */
+/* line 479, ../sass/_main.scss */
 .sell--buy .accordion__head:before {
   border-top-color: #4db1db;
 }
-/* line 482, ../sass/_main.scss */
+/* line 484, ../sass/_main.scss */
 .sell--buy .sell__check.active:before, .sell--buy .sell__check.active:after {
   background: #4db1db;
 }
-/* line 488, ../sass/_main.scss */
+/* line 490, ../sass/_main.scss */
 .sell--buy a.sell__btn, .sell--buy a.sell__add_btn, .sell--buy a:link.sell__btn, .sell--buy a:link.sell__add_btn, .sell--buy a:visited.sell__btn, .sell--buy a:visited.sell__add_btn, .sell--buy a:active.sell__btn, .sell--buy a:active.sell__add_btn, .sell--buy a:focus.sell__btn, .sell--buy a:focus.sell__add_btn, .sell--buy button.sell__btn, .sell--buy button.sell__add_btn, .sell--buy input[type="submit"].sell__btn, .sell--buy input[type="submit"].sell__add_btn {
   background: #4db1db;
 }
-/* line 494, ../sass/_main.scss */
+/* line 496, ../sass/_main.scss */
 .sell--buy a:hover.sell__btn, .sell--buy a:hover.sell__add_btn, .sell--buy button:hover.sell__btn, .sell--buy button:hover.sell__add_btn, .sell--buy input[type="submit"].sell__btn, .sell--buy input[type="submit"].sell__add_btn {
   background: #1d89cf;
 }
 
-/* line 504, ../sass/_main.scss */
+/* line 506, ../sass/_main.scss */
 .orders__wrap {
   background: #ffffff;
 }
-/* line 508, ../sass/_main.scss */
+/* line 510, ../sass/_main.scss */
 .orders__table {
   height: 149px;
 }
-/* line 512, ../sass/_main.scss */
+/* line 514, ../sass/_main.scss */
 .orders__table table.standart td, .orders__table .standart_table td {
   width: 33.33333333%;
 }
-/* line 521, ../sass/_main.scss */
+/* line 523, ../sass/_main.scss */
 .orders__name table.standart tr, .orders__name .standart_table tr {
   border-bottom: 0;
 }
-/* line 525, ../sass/_main.scss */
+/* line 527, ../sass/_main.scss */
 .orders__name table.standart th, .orders__name .standart_table th {
   width: 33.33333333%;
 }
-/* line 531, ../sass/_main.scss */
+/* line 533, ../sass/_main.scss */
 .orders__end {
   padding: 10px 25px;
 }
-/* line 533, ../sass/_main.scss */
+/* line 535, ../sass/_main.scss */
 .orders__end:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-/* line 541, ../sass/_main.scss */
+/* line 543, ../sass/_main.scss */
 .orders__text {
   font-size: 14px;
   color: #555555;
@@ -1790,7 +1804,7 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   line-height: 17px;
   font-weight: bold;
 }
-/* line 549, ../sass/_main.scss */
+/* line 551, ../sass/_main.scss */
 .orders__price {
   font-size: 14px;
   color: #d25e6e;
@@ -1798,104 +1812,104 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   line-height: 17px;
   font-weight: bold;
 }
-/* line 557, ../sass/_main.scss */
+/* line 559, ../sass/_main.scss */
 .orders__title {
   color: #d25e6e;
 }
 @media (max-width: 959px) {
-  /* line 557, ../sass/_main.scss */
+  /* line 559, ../sass/_main.scss */
   .orders__title {
     border-bottom: solid 1px #dfdfdf;
   }
 }
-/* line 567, ../sass/_main.scss */
+/* line 569, ../sass/_main.scss */
 .orders .accordion__head:before {
   border-top-color: #d25e6e;
 }
 @media (max-width: 959px) {
-  /* line 572, ../sass/_main.scss */
+  /* line 574, ../sass/_main.scss */
   .orders--buy {
     padding-top: 0;
   }
 }
-/* line 576, ../sass/_main.scss */
+/* line 578, ../sass/_main.scss */
 .orders--buy .orders__title {
   color: #4db1db;
 }
-/* line 581, ../sass/_main.scss */
+/* line 583, ../sass/_main.scss */
 .orders--buy .accordion__head:before {
   border-top-color: #4db1db;
 }
-/* line 585, ../sass/_main.scss */
+/* line 587, ../sass/_main.scss */
 .orders--buy .orders__price {
   color: #4db1db;
 }
 
-/* line 595, ../sass/_main.scss */
+/* line 597, ../sass/_main.scss */
 .history__wrap {
   background: #ffffff;
 }
-/* line 603, ../sass/_main.scss */
+/* line 605, ../sass/_main.scss */
 .history__table {
   min-width: 600px;
   height: 247px;
 }
-/* line 609, ../sass/_main.scss */
+/* line 611, ../sass/_main.scss */
 .history__table table.standart td, .history__table .standart_table td {
   width: 20%;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 615, ../sass/_main.scss */
+/* line 617, ../sass/_main.scss */
 .history__table table.standart td:first-child, .history__table .standart_table td:first-child {
   text-align: left;
 }
-/* line 621, ../sass/_main.scss */
+/* line 623, ../sass/_main.scss */
 .history__table .color_sell {
   color: #d25e6e;
 }
-/* line 625, ../sass/_main.scss */
+/* line 627, ../sass/_main.scss */
 .history__table .color_buy {
   color: #4db1db;
 }
-/* line 630, ../sass/_main.scss */
+/* line 632, ../sass/_main.scss */
 .history__name {
   min-width: 600px;
 }
-/* line 634, ../sass/_main.scss */
+/* line 636, ../sass/_main.scss */
 .history__name table.standart tr, .history__name .standart_table tr {
   border-bottom: 0;
 }
-/* line 637, ../sass/_main.scss */
+/* line 639, ../sass/_main.scss */
 .history__name table.standart th, .history__name .standart_table th {
   text-align: center;
   width: 20%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 643, ../sass/_main.scss */
+/* line 645, ../sass/_main.scss */
 .history__name table.standart th:first-child, .history__name .standart_table th:first-child {
   text-align: left;
 }
 @media (max-width: 639px) {
-  /* line 650, ../sass/_main.scss */
+  /* line 652, ../sass/_main.scss */
   .history__text {
     overflow: scroll;
   }
 }
 
-/* line 658, ../sass/_main.scss */
+/* line 660, ../sass/_main.scss */
 .accordion__head {
   position: relative;
 }
 @media (max-width: 959px) {
-  /* line 658, ../sass/_main.scss */
+  /* line 660, ../sass/_main.scss */
   .accordion__head {
     cursor: pointer;
   }
 }
-/* line 664, ../sass/_main.scss */
+/* line 666, ../sass/_main.scss */
 .accordion__head:before {
   display: none;
   position: absolute;
@@ -1907,18 +1921,18 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   border-top-color: #555555;
 }
 @media (max-width: 959px) {
-  /* line 664, ../sass/_main.scss */
+  /* line 666, ../sass/_main.scss */
   .accordion__head:before {
     display: block;
   }
 }
 @media (max-width: 639px) {
-  /* line 664, ../sass/_main.scss */
+  /* line 666, ../sass/_main.scss */
   .accordion__head:before {
     right: 15px;
   }
 }
-/* line 686, ../sass/_main.scss */
+/* line 688, ../sass/_main.scss */
 .accordion .open .accordion__head:before {
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -1926,7 +1940,7 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   transform: rotate(180deg);
 }
 
-/* line 692, ../sass/_main.scss */
+/* line 694, ../sass/_main.scss */
 .btc_neo {
   width: 100%;
   padding: 30px 0;
@@ -1934,27 +1948,27 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   padding-right: calc(33.3% + 10px);
 }
 @media (max-width: 1429px) {
-  /* line 692, ../sass/_main.scss */
+  /* line 694, ../sass/_main.scss */
   .btc_neo {
     padding-right: 0;
   }
 }
 @media (max-width: 959px) {
-  /* line 692, ../sass/_main.scss */
+  /* line 694, ../sass/_main.scss */
   .btc_neo {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
   }
 }
-/* line 708, ../sass/_main.scss */
+/* line 710, ../sass/_main.scss */
 .btc_neo:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-/* line 714, ../sass/_main.scss */
+/* line 716, ../sass/_main.scss */
 .btc_neo__title {
   background: #1d89cf;
   font-size: 18px;
@@ -1964,16 +1978,16 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   line-height: 25px;
   padding: 15px 35px;
 }
-/* line 723, ../sass/_main.scss */
+/* line 725, ../sass/_main.scss */
 .btc_neo__title--dop_color {
   background: #4db1db;
 }
-/* line 727, ../sass/_main.scss */
+/* line 729, ../sass/_main.scss */
 .btc_neo__title span {
   display: inline-block;
   margin-right: 40px;
 }
-/* line 732, ../sass/_main.scss */
+/* line 734, ../sass/_main.scss */
 .btc_neo__title:after {
   display: inline-block;
   content: ' ';
@@ -1982,21 +1996,21 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   border-bottom: 0;
   border-top-color: #ffffff;
 }
-/* line 743, ../sass/_main.scss */
+/* line 745, ../sass/_main.scss */
 .btc_neo__result {
   height: 155px;
   background-color: #106ca7;
 }
-/* line 747, ../sass/_main.scss */
+/* line 749, ../sass/_main.scss */
 .btc_neo__result .mCSB_scrollTools .mCSB_dragger {
   background: #84badd;
 }
-/* line 752, ../sass/_main.scss */
+/* line 754, ../sass/_main.scss */
 .btc_neo__item {
   padding: 0;
   border-bottom: solid 1px #2578ad;
 }
-/* line 756, ../sass/_main.scss */
+/* line 758, ../sass/_main.scss */
 .btc_neo__item a, .btc_neo__item a:link, .btc_neo__item a:hover, .btc_neo__item a:visited, .btc_neo__item a:active, .btc_neo__item a:focus {
   display: block;
   padding: 5px 25px;
@@ -2006,36 +2020,36 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 766, ../sass/_main.scss */
+/* line 768, ../sass/_main.scss */
 .btc_neo__item a:hover {
   background: #1d89cf;
 }
-/* line 771, ../sass/_main.scss */
+/* line 773, ../sass/_main.scss */
 .btc_neo__item.active a, .btc_neo__item.active a:link, .btc_neo__item.active a:hover, .btc_neo__item.active a:visited, .btc_neo__item.active a:active, .btc_neo__item.active a:focus {
   background: #1d89cf;
 }
-/* line 777, ../sass/_main.scss */
+/* line 779, ../sass/_main.scss */
 .btc_neo__block {
   float: left;
   width: 40%;
 }
-/* line 781, ../sass/_main.scss */
+/* line 783, ../sass/_main.scss */
 .btc_neo__block--long {
   width: 60%;
 }
-/* line 784, ../sass/_main.scss */
+/* line 786, ../sass/_main.scss */
 .btc_neo__block--long .btc_neo__item {
   width: 25%;
   padding: 5px 25px;
   border-bottom-color: transparent;
   float: left;
 }
-/* line 790, ../sass/_main.scss */
+/* line 792, ../sass/_main.scss */
 .btc_neo__block--long .btc_neo__item a, .btc_neo__block--long .btc_neo__item a:link, .btc_neo__block--long .btc_neo__item a:hover, .btc_neo__block--long .btc_neo__item a:visited, .btc_neo__block--long .btc_neo__item a:active, .btc_neo__block--long .btc_neo__item a:focus {
   display: inline-block;
   padding: 0 10px;
 }
-/* line 797, ../sass/_main.scss */
+/* line 799, ../sass/_main.scss */
 .btc_neo__block:after {
   content: " ";
   display: block;
@@ -2043,20 +2057,20 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   clear: both;
 }
 @media (max-width: 639px) {
-  /* line 777, ../sass/_main.scss */
+  /* line 779, ../sass/_main.scss */
   .btc_neo__block {
     width: 100% !important;
   }
 }
-/* line 809, ../sass/_main.scss */
+/* line 811, ../sass/_main.scss */
 .btc_neo .chosen-container {
   position: relative;
 }
-/* line 813, ../sass/_main.scss */
+/* line 815, ../sass/_main.scss */
 .btc_neo .chosen-container.chosen-with-drop .chosen-drop {
   display: block;
 }
-/* line 820, ../sass/_main.scss */
+/* line 822, ../sass/_main.scss */
 .btc_neo a.chosen-single, .btc_neo a:link.chosen-single, .btc_neo a:hover.chosen-single, .btc_neo a:visited.chosen-single, .btc_neo a:active.chosen-single, .btc_neo a:focus.chosen-single {
   background: #1d89cf;
   font-size: 18px;
@@ -2068,16 +2082,16 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   cursor: pointer;
   padding: 15px 35px;
 }
-/* line 831, ../sass/_main.scss */
+/* line 833, ../sass/_main.scss */
 .btc_neo a.chosen-single div, .btc_neo a:link.chosen-single div, .btc_neo a:hover.chosen-single div, .btc_neo a:visited.chosen-single div, .btc_neo a:active.chosen-single div, .btc_neo a:focus.chosen-single div {
   display: none;
 }
-/* line 835, ../sass/_main.scss */
+/* line 837, ../sass/_main.scss */
 .btc_neo a.chosen-single span, .btc_neo a:link.chosen-single span, .btc_neo a:hover.chosen-single span, .btc_neo a:visited.chosen-single span, .btc_neo a:active.chosen-single span, .btc_neo a:focus.chosen-single span {
   display: inline-block;
   margin-right: 40px;
 }
-/* line 840, ../sass/_main.scss */
+/* line 842, ../sass/_main.scss */
 .btc_neo a.chosen-single:after, .btc_neo a:link.chosen-single:after, .btc_neo a:hover.chosen-single:after, .btc_neo a:visited.chosen-single:after, .btc_neo a:active.chosen-single:after, .btc_neo a:focus.chosen-single:after {
   display: inline-block;
   content: ' ';
@@ -2086,7 +2100,7 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   border-bottom: 0;
   border-top-color: #ffffff;
 }
-/* line 852, ../sass/_main.scss */
+/* line 854, ../sass/_main.scss */
 .btc_neo .chosen-drop {
   position: absolute;
   width: 100%;
@@ -2096,19 +2110,19 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   z-index: 20;
   display: none;
 }
-/* line 862, ../sass/_main.scss */
+/* line 864, ../sass/_main.scss */
 .btc_neo .chosen-results_wrap {
   height: 155px;
 }
-/* line 864, ../sass/_main.scss */
+/* line 866, ../sass/_main.scss */
 .btc_neo .chosen-results_wrap .mCSB_scrollTools .mCSB_dragger {
   background: #84badd;
 }
-/* line 869, ../sass/_main.scss */
+/* line 871, ../sass/_main.scss */
 .btc_neo .chosen-results {
   background-color: #106ca7;
 }
-/* line 874, ../sass/_main.scss */
+/* line 876, ../sass/_main.scss */
 .btc_neo .chosen-results li {
   border-bottom: solid 1px #2578ad;
   display: block;
@@ -2119,26 +2133,26 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 885, ../sass/_main.scss */
+/* line 887, ../sass/_main.scss */
 .btc_neo .chosen-results li:hover {
   background: #1d89cf;
 }
-/* line 889, ../sass/_main.scss */
+/* line 891, ../sass/_main.scss */
 .btc_neo .chosen-results li.result-selected {
   background: #1d89cf;
 }
-/* line 894, ../sass/_main.scss */
+/* line 896, ../sass/_main.scss */
 .btc_neo .chosen-results:after {
   content: " ";
   display: block;
   height: 0;
   clear: both;
 }
-/* line 902, ../sass/_main.scss */
+/* line 904, ../sass/_main.scss */
 .btc_neo .chosen-search {
   background: #035a92;
 }
-/* line 904, ../sass/_main.scss */
+/* line 906, ../sass/_main.scss */
 .btc_neo .chosen-search input {
   border: 0;
   border-radius: 0;
@@ -2150,7 +2164,7 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
   opacity: 0.5;
   color: #ffffff;
 }
-/* line 916, ../sass/_main.scss */
+/* line 918, ../sass/_main.scss */
 .btc_neo .chosen-search input:focus {
   opacity: 1;
 }
@@ -2170,11 +2184,11 @@ a:hover.sell__add_btn, a:hover.sell__btn, button:hover.sell__add_btn, button:hov
 .btc_neo .chosen-search input::-webkit-input-placeholder {
   color: #ffffff;
 }
-/* line 928, ../sass/_main.scss */
+/* line 930, ../sass/_main.scss */
 .btc_neo__block--long a.chosen-single, .btc_neo__block--long a:link.chosen-single, .btc_neo__block--long a:hover.chosen-single, .btc_neo__block--long a:visited.chosen-single, .btc_neo__block--long a:active.chosen-single, .btc_neo__block--long a:focus.chosen-single {
   background: #4db1db;
 }
-/* line 934, ../sass/_main.scss */
+/* line 936, ../sass/_main.scss */
 .btc_neo__block--long .chosen-results li {
   width: 25%;
   float: left;

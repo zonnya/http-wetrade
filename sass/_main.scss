@@ -1,14 +1,3 @@
-// $text_color: #555555;
-// $light_text: #9d9d9d;
-// $sell_color: #d25e6e;
-// $buy_color: #4db1db;
-// $active_color: #1d89cf;
-// $dop_active: #1671ac;
-// $table_head-bg: #ececec;
-// $bg_color: #f0f3f4;
-// $scroll_color: #a0a0a0;
-// $border_color: #dfdfdf;
-
 
 
 .main_content{
@@ -229,6 +218,11 @@
 		background: #ffffff;
 		height: 265px;
 		position: relative;
+
+		@media(max-width: $tablet){
+			height: auto;
+			padding: 20px 0;
+		}
 	}
 
 	&__item{
@@ -240,6 +234,11 @@
 		ul{
 			@extend .standart_ul;
 			padding: 15px 25px;
+
+				
+			@media(max-width: $tablet){
+				display: none;
+			}
 			
 			li{
 				min-width: 120px;
@@ -284,7 +283,10 @@
 				clear: both;
 			}
 		}
+
 	}
+
+	
 }
 
 .tooltip{

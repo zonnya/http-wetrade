@@ -133,8 +133,9 @@ $(document).ready(function () {
       var options = {
         legend:'none',
         chartArea: {
-          left: 50,
-          top: 20
+          left: '10%',
+          top: 20,
+          width: '85%'
         },
         width: '100%',
         hAxis: {
@@ -173,10 +174,10 @@ $(document).ready(function () {
       '<div class="tooltip__vol">Voluem: ' + cust_vol + ' <div/>';
     }
 
-    google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart_last);
 
-      function drawChart() {
+      function drawChart_last() {
         var data = google.visualization.arrayToDataTable([
           ['number', 'Sales'],
           [0, 0],   [1, 10],  [2, 23],  [3, 17],  [4, 18],  [5, 9],
@@ -196,8 +197,9 @@ $(document).ready(function () {
         var options = {
           legend:'none',
           chartArea: {
-            left: 50,
-            top: 20
+            left: '10%',
+            top: 20,
+            width: '85%'
           },
           width: '100%'
           

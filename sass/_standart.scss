@@ -181,10 +181,11 @@ table.standart, .standart_table{
 }
 
 .tab-pane{
-	display: none;
+	height: 0;
+	overflow: hidden;
 
 	&.active{
-		display: block;
+		height: auto;
 	}
 }
 
