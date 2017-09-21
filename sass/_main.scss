@@ -37,6 +37,23 @@
 	}
 }
 
+.title__big{
+	font-size: 40px;
+	line-height: 40px;
+	color: $text_color;
+	font-weight: bold;
+	text-align: center;
+	margin: 40px 0;
+
+	@media(max-width: $tablet){
+		font-size: 32px;
+	}
+
+	@media(max-width: $mobile){
+		font-size: 28px;
+	}
+}
+
 .title_dop{
 	font-size: 18px;
 	line-height: 20px;
