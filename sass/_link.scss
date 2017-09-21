@@ -1,0 +1,186 @@
+.tipycal_btn{
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	@include border-radius(0);
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	font-weight: normal;
+	border: 0;
+	outline: none;
+	color: #ffffff;
+
+	@media(max-width: $mobile){
+		width: 100%;
+	}
+}
+
+.along_btn{
+	min-width: 255px;
+}
+
+
+.gamb_link{
+
+	@media(max-width: $mobile){
+		padding: 14px 20px;
+		line-height: 20px !important;
+		border: 0;
+		text-align: left;
+		border-bottom: solid 1px #ffffff;
+		color: $text-color;
+		background-color: transparent;
+		position: static !important;
+		float: none;
+		display: block !important;
+		width: 100% !important;
+		margin: 0 !important;
+    	font-weight: bold;
+    	text-decoration: none;
+    	height: initial !important;
+	}
+}
+
+a, a:link, a:hover, a:visited, a:active, a:focus, button, input[type="submit"]{
+	@include transition(all 0.2s ease-out 0.1s);
+	font-size: 14px;
+	line-height: 18px;
+	
+	&.header__gamb{
+	
+		height: 58px;
+		width: 58px;
+		background: transparent;
+		text-align: center;
+		line-height: 56px;
+		margin: 2px;
+		display: none;
+		float: right;
+		margin: 20px 0;
+		
+		svg{
+			display: block;
+			fill: #ffffff;
+		}
+
+		.icon_close{
+			display: none;
+		    line-height: 58px;
+		    vertical-align: middle;
+		}
+
+		.icon_open{
+			display: inline-block;
+		    line-height: 58px;
+		    vertical-align: middle;
+		}
+
+		@media(max-width: $desktop){
+			display: block;
+		}
+
+		&.open{
+			.icon_close{
+				display: inline-block;
+			}
+
+			.icon_open{
+				display: none;
+			}
+		}
+	}
+
+	&.header_btn{
+		@extend .tipycal_btn;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 0 15px;
+		line-height: 56px;
+		background: $active_color;
+
+		&--darck{
+			background: $dop_active;
+		}
+	}
+
+	&.person__close{
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 14px;
+		color: $sell_color;
+		text-decoration: none;
+		line-height: 56px;
+
+		@media(max-width: $tablet){
+			font-size: 18px;
+			line-height: 32px;
+		}
+	}
+
+	&.log_block__log_in, &.log_block__registr{
+		
+		font-size: 18px;
+		line-height: 16px;
+		color: $text_color;
+		text-decoration: none;
+		display: inline-block;
+
+		@media(max-width: $desktop){
+			font-size: 14px;
+		}
+
+		@media(max-width: $tablet){
+			display: block;
+			line-height: 45px;
+			font-size: 18px;
+		}
+	}
+	&.sell__btn{
+		@extend .tipycal_btn;
+		font-size: 17px;
+		line-height: 22px;
+		padding: 10px;
+		background: $sell_color;
+		display: block;
+		width: 100%;
+	}
+
+	&.sell__add_btn{
+		@extend .tipycal_btn;
+		display: block;
+		float: right;
+		width: 50%;
+		font-size: 17px;
+		line-height: 34px;
+		background: $sell_color;
+		height: 34px;
+		text-align: center;
+
+	}
+
+}
+
+a:hover, button:hover, input[type="submit"]{
+	&.header_btn{
+		background: $buy_color;
+	}
+	&.person__close{
+		text-decoration: underline;
+	}
+	&.log_block__log_in, &.log_block__registr{
+		color: $active_color;
+		text-decoration: underline;
+	}
+	&.sell__add_btn, &.sell__btn{
+		background-color: $active_color;
+	}
+}
+
+a:active, button:active, input[type="submit"] {
+	// color: $text-dark; 
+
+}
+
+
